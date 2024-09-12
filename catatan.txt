@@ -1,0 +1,11 @@
+1. Nama database sesuai config : smartacc
+2. cek config di folder application/config/database.php
+3. user dan password default : admin
+
+
+INSTALLATION CODEIGNITER 3:
+1. Clone Repository
+2. Setting up database di /application/config/database.php
+3. Run SQL file di database dengan file yang tertera di folder smartacc.sql
+4. Jalankan server dengan php -S localhost:8000
+5. Buka browser dan akses ke localhost:8000
