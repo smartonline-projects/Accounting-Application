@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '127.0.0.1',
-	'username' => 'root',
-	'password' => '12345678',
-	'database' => 'smartacc',
+	'hostname' => 'localhost',
+	'username' => 'accounting_s_usr',
+	'password' => '05YDeD6SDfKipqKO',
+	'database' => 'accounting_s',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
