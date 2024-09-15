@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'accounting_db_us',
-	'password' => 'lOPNNxjzg2lguvpZ',
+	'hostname' => '127.0.0.1',
+	'username' => 'root',
+	'password' => '12345678',
 	'database' => 'smartacc',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

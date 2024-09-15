@@ -1,5 +1,4 @@
-
-<html lang="en" class="no-js">
+<html lang="en" class="bg-white">
 <head>
 <meta charset="utf-8"/>
 <title><?php echo $this->config->item('nama_app');?></title>
@@ -34,7 +33,7 @@
 
 <div class="logo">
 	<a href="<?php echo base_url();?>">
-		<img src="<?php echo base_url('assets/img/logo_login.png');?>" width="250" alt=""/>
+		<img src="<?php echo base_url('assets/img/smart_accounting.png');?>" width="300" alt=""/>
 	</a>
 </div>
 
@@ -192,18 +191,18 @@
 	        });
 	}
 	 return {
-        init: function () {
-			//handleLogin();
-           	$.backstretch([
-		        "<?php echo base_url();?>assets/img/bg/1.jpg",
-		        "<?php echo base_url();?>assets/img/bg/2.jpg",
-		        "<?php echo base_url();?>assets/img/bg/3.jpg",
-		        "<?php echo base_url();?>assets/img/bg/4.jpg"
-		        ], {
-		          fade: 1000,
-		          duration: 8000
-		    });
-        }
+        // init: function () {
+		// 	//handleLogin();
+        //    	$.backstretch([
+		//         "<?php echo base_url();?>assets/img/bg/1.jpg",
+		//         "<?php echo base_url();?>assets/img/bg/2.jpg",
+		//         "<?php echo base_url();?>assets/img/bg/3.jpg",
+		//         "<?php echo base_url();?>assets/img/bg/4.jpg"
+		//         ], {
+		//           fade: 1000,
+		//           duration: 8000
+		//     });
+        // }
 
     };
 
